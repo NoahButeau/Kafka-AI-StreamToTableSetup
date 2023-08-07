@@ -36,7 +36,7 @@ pip install mysql-connector-python
 5. The script will continuously consume messages until interrupted (Ctrl+C).
 
 Note: Make sure to have a running Kafka cluster, Schema Registry, and a MySQL database before running the script.
-##learn More
+## Learn More
 https://developer.confluent.io/courses/kafka-connect/how-to-generate-data-hands-on/
 These videos are from the confluent website and portions of the json_prodocer.py code are taken from there and the tutorial.
 The json_prodcuer.py is only used to test.
