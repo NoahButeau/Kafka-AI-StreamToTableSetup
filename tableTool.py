@@ -36,7 +36,7 @@ def openAI():
     schemaID = schema_registry_client.get_latest_version(subject).schema_id
 
     schema = schema_registry_client.get_schema(schemaID).schema_str
-    openai.api_key = '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'
+    openai.api_key = '<openAI api key>'
     message = openai.Completion.create(
         engine='text-davinci-002',
         prompt=f"Example you can use for the following is {example} Can you return just a query to make a database based on this, please return the query:{schema}",
